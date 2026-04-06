@@ -43,3 +43,24 @@ vv=45
 let u =String(vv)
 console.log(u)
 console.log(typeof u)
+
+//*******************Operations*********************
+let val =3;
+let negval=-val
+//console.log(negval)
+
+console.log("9"+7)
+console.log(9+"2")
+console.log("7" +1+1)
+console.log(1+1+"9")
+console.log(true)
+console.log(+true)
+//console.log(true+) //error
+console.log(+"")
+let game=100
+//game++
+//console.log(game)
+++game
+console.log(game)
+//prefix and postfix js mdn
+
