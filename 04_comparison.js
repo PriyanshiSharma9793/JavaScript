@@ -34,3 +34,19 @@ let Myobj={
 const myfunction= function(){
     console.log("HII")
 }
+
+//++++++++++++++++++++++++++++++++++++
+//Stack(Primitive) ,Heap(Non Primitive)
+let myutube="Priyaisgood"
+let another=myutube
+another="Priyanshiisverygud"
+console.log(myutube)
+console.log(another)
+
+let userone={
+    email:"user.com",
+}
+let usertwo=userone
+usertwo.email="user2.com"
+console.log(userone.email)
+console.log(usertwo.email)
