@@ -1,1 +1,45 @@
+let score=33
+let sc="33abc"
+let bc=null;
+let cc= undefined;
+let dd=true;
+let ee="Priya"
 
+console.log(typeof(score))
+
+console.log(typeof(sc))
+let a=Number(sc)
+console.log(typeof(a))
+console.log(a)
+
+console.log(typeof(bc))
+let b=Number(bc)
+console.log(typeof(b))
+console.log(b)
+
+console.log(typeof(cc))
+let c=Number(cc)
+console.log(typeof(c))
+console.log(c)
+
+console.log(typeof(dd))
+let d=Number(bc)
+console.log(typeof(d))
+console.log(d)
+
+console.log(typeof(ee))
+let e=Number(ee)
+console.log(typeof(e))
+console.log(e)
+
+//let islogin =1 //true
+//let islogin="Priya" //true
+let islogin ="" //false
+console.log(typeof islogin)
+let g= Boolean(islogin)
+console.log(g)
+
+vv=45
+let u =String(vv)
+console.log(u)
+console.log(typeof u)
