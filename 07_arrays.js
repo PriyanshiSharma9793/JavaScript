@@ -26,3 +26,8 @@ const myn2=myArr.splice(1,3)
 
 console.log("C",myArr)
 console.log(myn2)
+
+//Slice is not manipulated of original array
+//Splice is manipulated of original array 
+// Slice range(1,3) it does not include last  op-1,2
+//Splice range(1,3) it include op-1,2,3
