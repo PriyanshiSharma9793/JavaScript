@@ -40,3 +40,6 @@ console.log(add2(3,4))
 //implicit return
 const addtwo=(num1,num2)=>(num1+num2)
 console.log(addtwo(5,7))
+//In paraentesis no need to write return keyword but we r using {} then we used return 
+const add=()=>({user:"Priyanshi"})//for object 
+console.log(add())
