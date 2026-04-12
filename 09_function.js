@@ -28,6 +28,33 @@ function loginusermess(username="Chetan"){
 }
 console.log(loginusermess("Priyanshi"))
 console.log(loginusermess())
+//Multiple Parameter
+function  calculatecartPrice(val1,val2 ,...num1){
+    return num1
+}
+console.log(calculatecartPrice(300,700,800,6000))
+//Anyobject using in function
+const username={
+     username:"Priyanshi",
+     price:20
+}
+function handleobject(anyobject){
+   console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`)
+}
+handleobject(username)
+handleobject({
+    username:"Chetan",
+    price:300
+})
+
+// Array using in function
+
+const mynewarray=[100,200,300,400]
+
+function returnSecondvalue(getArray){
+    return getArray[1]
+}
+console.log(returnSecondvalue(mynewarray)
 
 
 
