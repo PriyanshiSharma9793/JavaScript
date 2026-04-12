@@ -69,3 +69,13 @@ console.log(Object.keys(tinder2))
 console.log(Object.values(tinder2))
 console.log(Object.entries(tinder2))
 console.log(tinder2.hasOwnProperty('islogged'))
+//*******Value Destructuring****
+const course={
+    courdename:"js in hindi",
+    price:98,
+    courseInstructor:"hitesh Sir"
+}
+//console.log(course.courdename)
+const{courseInstructor:ins}=course
+console.log(ins)
+
