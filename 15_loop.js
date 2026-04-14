@@ -17,3 +17,25 @@ for(let i=1; i <= 10;i++){
     //console.log(i + '*' + j + '=' + i*j)
 }
 }
+let myarray =["Priyanshi","Chetan","Anil"]
+for(let i=0; i < myarray.length;i++){
+    const element=myarray [i];
+    console.log(element);
+}
+
+//++++++++++++++Break ++++++++++++++++++
+
+for (let i = 1; i <= 5; i++) {
+    if (i === 3) {
+        break;
+    }
+    console.log(i);
+}
+
+//++++++++++++++++continue++++++++++++++
+for (let i = 1; i <= 5; i++) {
+    if (i === 3) {
+        continue;
+    }
+    console.log(i);
+}
